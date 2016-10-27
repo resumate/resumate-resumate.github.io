@@ -1,1 +1,1 @@
-# resumate-resumate.github.io
+# resumate.github.io
