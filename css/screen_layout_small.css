@@ -1,3 +1,6 @@
+body {
+    height: 100%;
+}
 .text-area {
     padding: 30px;   
 }
@@ -8,16 +11,6 @@
 
 #title {
     font-size: 20pt;
-}
-
-.links li:hover, .links li:focus {
-    height: inherit;
-    border-bottom: none;
-    background-color: lightskyblue;
-}
-
-.links li:hover > a, .links li:focus > a {
-    color: black;
 }
 
 #top p {
@@ -325,6 +318,21 @@ footer {
     display: block;
     width: 200px;
     text-align: left;
+}
+
+.links a {
+    display: block;
+    padding-top: 13px;
+}
+
+.links li:hover, .links li:focus {
+    height: 70px;
+    border-bottom: none;
+    background-color: lightskyblue;
+}
+
+.links li:hover > a, .links li:focus > a {
+    color: black;
 }
 
 .site-wrap {
