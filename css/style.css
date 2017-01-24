@@ -1,0 +1,675 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+h4 {
+    letter-spacing: 1pt;   
+}
+
+#top {
+    background-color: #3B9BEF;
+    height: 80vh;
+    text-align: center;
+}
+
+#nav-trigger {
+    display: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 30px;
+    padding-top: 30px;
+    font-size: 15pt;
+    font-weight: 200;
+    letter-spacing: 2pt;
+    height: 50px;
+}
+
+.links li:hover, .links li:focus {
+    box-sizing: border-box;
+    height: 80px;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.links li:hover > a, .links li:focus > a {
+    color: lightskyblue;
+}
+
+.links {
+    text-align: center;
+    background-color: #000;
+    height: 80px;
+}
+
+.links a {
+    color: #fff;   
+}
+
+#title {
+    font-size: 50pt;
+    letter-spacing: 5pt;
+}
+
+#desc {
+    font-size: 18pt;   
+    letter-spacing: 1pt;
+}
+
+.description{
+    color: gray;
+    letter-spacing: 1pt;
+    font-size: 14pt;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 34pt;
+    padding-bottom: 10px;
+}
+
+#resumate {
+    color: #fff;  
+    padding-top: 28vh;
+}
+
+#goal {
+    padding: 50px 200px 0 200px;   
+    height: 49vh;
+}
+
+#goals {
+    float: left;
+    width: 50%;
+}
+
+#goals p {
+    margin-top: 10px;
+    line-height: 30pt; 
+    font-size: 14pt;
+    color: gray;
+}
+
+#guy {
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 150px; 
+    margin-bottom: -3px;
+}
+
+#goals h3{
+    font-size: 26pt;
+    font-weight: 600;
+}
+
+#back2top {
+    display: none;   
+}
+
+#bigbutton {
+    height: 120px;
+    background-color: lightskyblue;
+    text-align: center;
+    color: #fff;
+    font-size: 26pt;
+}
+
+#bigbutton h3 {
+    padding-top: 40px;
+}
+
+#logo {
+    width: 5%;   
+}
+
+
+footer {
+    background-color: #000; 
+    height: 100px;
+    text-align: center;
+}
+
+/* CONTACT PAGE*/
+
+input, textarea {
+    padding: 10px;
+    font-size: 12pt;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: #cce6ff;
+    color: black;
+}
+form label {
+    margin: 10px 0 5px 0;
+}
+#btnsub {
+    background-color: #3E9AED;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+}
+#contactContainer {
+    margin: 0 auto;
+    width: 410px;
+}
+
+#contact {
+    height: 72vh;   
+}
+
+.subhead {
+    font-weight: 700;
+    font-size: 22pt;
+}
+
+.sub-subhead {
+    font-size: 16pt;
+}
+
+.sub-subhead-white {
+    font-size: 16pt;
+    color: #fff;
+}
+
+.tinyhead-white {
+    font-size: 14pt;
+    color: #fff;
+}
+
+.tinyhead {
+    font-size: 14pt;   
+}
+
+.sub-subhead, .sub-subhead-white {
+    padding-top: 10px;   
+}
+
+#special {
+    text-transform: uppercase;
+}
+
+.subhead-white {
+    font-weight: 700;
+    font-size: 22pt; 
+    color: #fff;
+}
+
+#mininav {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+
+#mininav a {
+    color: #fff;
+    padding: 0 5px;
+}
+
+footer p {
+    font-size: 10pt;
+    padding-top: 25px;
+    color: #fff;  
+    letter-spacing: 2pt;
+}
+
+.text {
+    margin-top: 10px;
+    line-height: 25pt; 
+    font-size: 12pt;
+    color: gray;   
+}
+
+.text-white {
+    margin-top: 10px;
+    line-height: 25pt; 
+    font-size: 13pt;
+    color: #fff;   
+}
+
+.text-area {
+    padding: 50px 100px;
+}
+   
+
+#us, #view-ex, #know-want, #how-act, #resources {
+    background-color: #3E9AED;
+    padding-bottom: 0;
+}
+
+#us h4 {
+    text-transform: uppercase;
+    margin-left: -330px;
+}
+
+#us {
+    height: 300px;   
+}
+
+#us p {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#us h4, p {
+     padding-left: 43%;   
+}
+
+#amanthia {
+    width: 330px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-top: 18px;
+}
+
+#submit, #submit_int {
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1pt;
+    background-color: lightskyblue;
+    text-align: center;
+    color: #fff;
+    font-size: 26pt;
+    width: 100%;
+    font-size: 26pt;
+    font-weight: 600;
+    border: none;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#know-want {
+    height: 390px;
+}
+
+#view-ex, #resources {
+    text-align: center;  
+    height: 45vh;
+}
+
+#resources {
+    padding-bottom: 50px;
+}
+
+.example {
+    margin: 30px 20px 10px 20px;
+    width: 200px;
+}
+
+#resources p {
+    color: #fff;   
+}
+
+#resources h5 {
+    font-weight: bold;
+    letter-spacing: 1pt;
+}
+
+#thumb {
+    width: 300px;
+}
+
+.squares {
+    width: 30%;
+    display: inline-block;
+}
+
+.squares h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+.squares p {
+    padding-top: 5px;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.circles {
+    width: 20%;
+    display: inline;
+}
+
+.circles h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.left-image {
+    float: left;
+    width: 25%;
+}
+
+.aboutright-text {
+    width: 50%;
+    padding-left: 400px; 
+    margin-bottom: -3px;
+}
+
+#know-good {   
+    margin-bottom: 20px;
+}
+
+.left-text {
+    float: left;
+    width: 50%;
+}
+
+.right-text {
+    width: 60%;
+    padding-left: 400px; 
+    margin-bottom: -3px;
+}
+
+.right-image {
+    width: 20%;
+    padding-left: 800px;
+    margin-bottom: -3px;
+}
+
+#how-act {
+   padding-bottom: 50px;    
+}
+
+#papers {
+    margin-top: -40px;   
+}
+
+#paperpen {
+    width: 200px;
+}
+
+#tallguy {
+    float: right;
+    height: 450px;
+    margin-right: -70px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+.howDoIAct {
+    width: 70%;
+}
+
+.left-image {
+    width: 200px;
+    margin-bottom: -3px;
+    float: left;
+}
+
+#girl {
+    padding-top: 13px;
+    width: 300px;
+}
+
+#common-q h4, #how-act h4 {
+    margin-top: 10px;   
+}
+
+/* RESUME FORM */
+
+.singleInput, .jobTitle, ul li input[type=text], .work-description {
+    display: block;
+    width: 94%;
+}
+#resumeLeft {
+    float: left;
+    width: 45%;
+    margin: 0 auto 60px auto; 
+}
+#resumeRight {
+    float: right;
+    width: 45%;
+    margin: 0 auto 60px auto; 
+}
+.removeButton, .addtext {
+    display: block;
+    margin-bottom: 1%; 
+    background-color: #3E9AED;
+    border: none;
+    font-size: 12pt;
+    color: white;
+}
+#what-know {
+    margin: 0 auto;
+    width: 65%;
+}
+
+#what-is {
+    height: 300px;   
+}
+
+#knowDesc {
+    margin: 1.5% 0 3% 0;
+    text-align: center;
+    color: #868686;
+    font-size: 13pt;
+}
+#what-know label {
+    font-size: 14pt;
+    margin: 5% auto;
+    font-weight: 400;
+}
+#what-know input[type=text], #what-know textarea {
+    padding: 3%;
+    font-size: 12pt;
+    margin-bottom: 2%;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: #cce6ff;
+    color: black; 
+}
+.popup, .abovePop {
+    width: 350px;
+    padding: 1.5%;
+    margin: 0 auto 2% auto;
+    display: none;
+    text-align: left;
+    color: #868686;
+    font-size: 13pt;
+    line-height: 22px;
+}
+.abovePop {
+    margin-top: -4%;
+}
+.newLine {
+    display: block; 
+    margin-top: 2%;
+}
+#name:focus + #namePop, #email:focus + #emailPop, #phone:focus + #phonePop, #objective:focus + #objPop {
+    display: block;
+    -webkit-animation: fadein .7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .7s; /* Firefox < 16 */
+        -ms-animation: fadein .7s; /* Internet Explorer */
+         -o-animation: fadein .7s; /* Opera < 12.1 */
+            animation: fadein .7s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*--------------------------------------------*/
+.sec-title, #skills-output, .disappear, .qcontainer, .arrows {
+	display: none;
+}
+
+/*resume page fixes*/
+
+#toNewWindow {
+    display: none;
+    
+}
+/*interview page fixes*/
+.disappear, .qcontainer {
+	display: none;
+}
+
+label {
+    display: block;
+}
+
+
+/* OUTFIT GUIDE */
+    .changeoutfit, #questions1, #questions2, #questions3 {
+        background-color: #3E9AED;
+        padding: 5px;
+        color: white;
+        width: 100px;
+        margin: 0 5px 25px 5px;
+    }
+    #outfitbtns {   
+        margin: 0 auto;
+        width: 340px;
+    }
+    #outfitContainer {
+        width: 1000px;
+        height: 484px;
+        background-color: #96acde;
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+    #outfit1 {
+        position: relative;
+        background-image: url("../images/outfit-01.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 468px;
+        margin-left: 200px;
+    }
+    #cardigan {
+        top: 16%/**distance from top of image */;
+        left: 0% /**distance from left of image */;
+        width: 130px; /**region width*/;
+        height: 120px /**region height*/;
+    }
+    #cardiganpop {
+        position: relative;
+        padding: 10px;
+        left: 150px;
+        width: 100px;
+        height: 40px;
+    }
+    #blouse {
+        top: 23%/**distance from top of image */;
+        left: 30% /**distance from left of image */;
+        width: 40px; /**region width*/;
+        height: 95px /**region height*/;
+    }
+    #blousepop {
+        position: relative;
+        padding: 10px;
+        right: 200px;
+        width: 120px;
+        height: 40px;
+    }
+    #pants {
+        top: 43%/**distance from top of image */;
+        left: 15% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 220px /**region height*/;
+    }
+    #pantspop {
+        position: relative;
+        padding: 10px;
+        left: 120px;
+        width: 120px;
+        height: 40px;
+    }
+    #shoes {
+        top: 92%/**distance from top of image */;
+        left: 29% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 40px /**region height*/;
+    }
+    #shoespop {
+        position: relative;
+        padding: 10px;
+        bottom: 50px;
+        right: 170px;
+        width: 120px;
+        height: 40px;
+    }
+    .innerHover {
+        position: absolute;
+        overflow: show;
+        background: rgba(255, 255, 255, 0);
+    }
+    .innerHover .popupdiv {
+        display: none;
+        background: rgba(242, 242, 242, 0.92);
+    }
+    .innerHover:hover .popupdiv {
+        display: block;
+    }
+
+/* INTERVIEW QUESTIONS */
+
+#questions1, #questions2, #questions3 {
+    width: 150px;
+}
+
+#buttonz {
+    width: 490px;
+    margin: 0 auto;
+}
+
+#interviewq {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.responses {
+    padding: 20px 3.5%;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 93%;
+}
+
+.interview_questions {
+    font-size: 16pt;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}

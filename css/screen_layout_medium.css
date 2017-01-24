@@ -1,0 +1,316 @@
+.text-area {
+    padding: 30px 60px;   
+}
+
+#top {
+    height: 400px;
+}
+
+#title {
+    font-size: 34pt;
+}
+
+#top p {
+    font-size: 16pt;   
+}
+
+#resumate {
+    padding-top: 100px;   
+}
+
+#goal {
+    padding: 60px;
+    height: 20vh;
+}
+
+#goals {
+    width: 100%;
+}
+
+#goals p{
+    font-size: 20pt;
+    line-height: 22pt;
+}
+
+#goals h3 {
+    font-size: 24pt;
+}
+
+#logo {
+    width: 50px;   
+}
+
+#bigbutton h3, #submit, #submit_int {
+    font-size: 26pt;   
+}
+
+#bigbutton, #submit, #submit_int {
+    padding: 0 60px;   
+}
+
+#questions1, #questions2, #questions3 {
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.interview_questions {
+    font-size: 14pt;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+#mininav {
+    display: none;   
+}
+
+#back2top {
+    display: block;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+footer p {
+    padding-top: 5px;
+}
+
+footer {
+    padding-top: 30px;
+    height: 70px;
+}
+
+#hamburger {
+    display: block;   
+}
+
+.header-text {
+    font-size: 26pt;   
+}
+
+.description {
+    font-size: 12pt;  
+    line-height: 16pt;
+}
+
+.text, .text-white, #goals p {
+    font-size: 12pt;
+    line-height: 18pt;
+}
+
+.subhead, .subhead-white  {
+    font-size: 22pt;   
+}
+
+.left-image {
+    float: left;
+    width: 25%;
+}
+
+#know-good {
+    height: 50%;
+    padding-bottom: 20px;
+    margin-bottom: -5px;
+}
+
+#know-want {
+    height: 50%;
+    padding-bottom: 60px;
+}
+
+.left-text, .right-text, .aboutright-text, #us h4 {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#our-goal {
+    height: 35vh;   
+}
+
+#us {
+    height: 35vh;
+}
+
+#what-know, #knowDesc {
+    padding: 0;
+}
+
+#knowDesc {
+    font-size: 12pt;  
+    line-height: 16pt;
+    padding: 0 60px;
+    margin-bottom: -20px;
+}
+
+#what-know h2 {
+   padding-top: 60px;
+}
+
+#resumeLeft, #resumeRight{
+    float: none;
+    width: 80%;
+    margin: 0 auto;   
+}
+
+#what-know input[type=text], #what-know textarea {
+    padding: 2%;
+}
+
+.popup, .abovePop {
+    width: 100%;
+    padding: 1% 1.5%;
+    margin: 0 auto;
+}
+
+#objPop {
+    text-align: left;
+}
+
+#what-know label {
+    font-size: 14pt;
+    margin: 2% auto;
+}
+
+#resumeLeft {
+    padding-top: 60px;
+}
+
+#resumeRight {
+    padding-bottom: 60px;
+}
+
+.squares h5 {
+    height: 40px;
+}
+
+#resources .squares p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#resources .squares img {
+    width: 150px;
+}
+
+.left-image, .right-image, .arrows {
+    display: none;
+}   
+
+#what-know {
+    width: 100%;   
+}
+
+#view-ex, #resources {
+    padding: 30px 0;
+}
+
+#resources {
+    padding-bottom: 60px;
+}
+
+#guy, #amanthia, #paperpen, #girl, #thumb, #papers, #tallguy {
+    display: none; 
+}
+
+#interviews {
+    background-image: url(../images/mpapers.png);
+    background-size: cover;
+}
+
+#how-act {
+    background-image: url(../images/mfullguy.png);
+    background-size: cover;
+}
+
+#goal {
+    background-image: url(../images/mguy.png);
+    background-size: cover;
+}
+
+#what-is {
+    background-image: url(../images/mpaperpen.png);
+    background-size: cover;
+}
+
+#know-good {
+    background-image: url(../images/mgirl.png);
+    background-size: cover;
+}
+
+#know-want {
+    background-image: url(../images/mlike.png);
+    background-size: cover;
+}
+
+/* NAVIGATION */
+.links {
+    list-style: none;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.links li{
+    padding: 10px 0 10px 20px;
+    display: block;
+    width: 200px;
+    text-align: left;
+}
+
+.site-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    background-size: 200%;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+}
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* INTERVIEW QUESTIONS */
+
+#interviewq {
+    width: 75%;
+    margin: 0 auto;
+}

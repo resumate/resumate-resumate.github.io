@@ -1,0 +1,375 @@
+.text-area {
+    padding: 30px;   
+}
+
+#top {
+    height: 200px;
+}
+
+#title {
+    font-size: 20pt;
+}
+
+#top p {
+    font-size: 12pt;   
+}
+
+#resumate {
+    padding-top: 50px;   
+}
+
+#goal {
+    padding: 30px; 
+    height: 35vh;
+}
+
+#goals {
+    width: 100%;
+}
+
+#goals p{
+    font-size: 12pt;
+    line-height: 26px;
+}
+
+#goals h3 {
+    font-size: 17pt;
+}
+
+#logo {
+    width: 35px;   
+}
+
+#bigbutton h3, #submit, #submit_int {
+    font-size: 16pt;   
+}
+
+#bigbutton, #submit, #submit_int {
+    padding: 0 30px;   
+}
+
+#questions1, #questions2, #questions3 {
+    padding: 10px 0;
+    font-size: 10pt;
+    width: 110px;
+}
+
+/* CONTACT PAGE */
+
+#contactContainer {
+    width: 80%;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 2%;
+    width: 96%;
+}
+
+.interview_questions {
+    font-size: 14pt;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+#mininav {
+    display: none;   
+}
+
+#back2top {
+    display: block;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+footer p {
+    padding-top: 5px;
+}
+
+footer {
+    padding-top: 30px;
+    height: 70px;
+}
+
+#hamburger {
+    display: block;   
+}
+
+.header-text {
+    font-size: 24pt;   
+}
+
+.description {
+    font-size: 12pt;  
+    line-height: 16pt;
+}
+
+.text, .text-white, #goals p {
+    font-size: 10pt;
+    line-height: 16pt;
+}
+
+#our-goal{
+    padding-bottom: 20%;
+}
+
+#us {
+    height: 50%;
+}
+
+
+.left-image {
+    float: left;
+    width: 25%;
+}
+
+#know-good {
+    height: 50%;
+    padding-bottom: 30px;
+    margin-bottom: -5px;
+}
+
+#know-want {
+    height: 50%;
+    padding-bottom: 30px;
+}
+
+.left-text, .right-text, .aboutright-text, #us h4 {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#what-know, #knowDesc {
+    padding: 0;
+}
+
+#knowDesc {
+    font-size: 12pt;  
+    line-height: 16pt;
+    padding: 0 30px;
+    margin-bottom: -20px;
+}
+
+#what-know h2 {
+    padding-top: 30px;
+}
+
+#resumeLeft, #resumeRight{
+    float: none;
+    width: 70%;
+    margin: 0 auto;   
+}
+
+#what-know input[type=text], #what-know textarea {
+    width: 94%;
+}
+
+#objPop, #classesPop, #accPop, #actPop, #commPop {
+    text-align: left;
+}
+
+#resumeLeft {
+    padding-top: 30px;
+}
+
+#resumeRight {
+    padding-bottom: 30px;
+}
+
+.popup, .abovePop {
+    width: 100%;
+    padding: 1% 1.5%;
+    text-align: center;
+}
+
+.subhead, .subhead-white {
+    font-size: 16pt;   
+}
+
+.sub-subhead, .sub-subhead-white {
+    font-size: 12pt;   
+}
+
+.left-image, .right-image {
+    display: none;
+}   
+
+/* SLIDER IMAGES */
+
+#view-ex, #resources {
+    padding: 30px 0;
+}
+
+.squares {
+    margin: 50px auto 0 auto;
+    width: 200px;
+}
+
+#resources .squares {
+    margin-top: 20px;
+}
+
+#resources .squares img {
+    width: 150px;
+}
+
+.squares img {
+    margin-bottom: 20px;
+}
+
+.w3-display-left {
+    position: relative;
+    left: -150px;
+    bottom: 140px;
+}
+
+.w3-display-right {
+    position: relative;
+    right: -150px;
+    bottom: 140px;
+}
+
+#resources .arrows {
+    bottom: 0;
+    top: 140px;
+}
+
+.arrows {
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.arrowsCont {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.example {
+    margin: 0;
+}
+
+#what-know {
+    width: 100%;   
+}
+
+#guy, #amanthia, #paperpen, #girl, #thumb, #papers, #tallguy {
+    display: none; 
+}
+
+#interviews {
+    background-image: url(../images/tpapers.png);
+    background-size: cover;
+}
+
+#how-act {
+    background-image: url(../images/tfullguy.png);
+    background-size: cover;
+}
+
+#goal {
+    background-image: url(../images/tguy.png);
+    background-size: cover;
+}
+
+#what-is {
+    background-image: url(../images/tpaperpen.png);
+    background-size: cover;
+}
+
+#know-good {
+    background-image: url(../images/tgirl.png);
+    background-size: cover;
+}
+
+#know-want {
+    background-image: url(../images/tlike.png);
+    background-size: cover;
+}
+
+/* NAVIGATION */
+.links {
+    list-style: none;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.links li{
+    padding: 10px 0 10px 20px;
+    display: block;
+    width: 200px;
+    text-align: left;
+}
+
+.site-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    background-size: 200%;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+}
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* INTERVIEW QUESTIONS */
+
+#buttonz {
+    width: 370px;
+    margin: 0 auto;
+}
+
+#interviewq {
+    width: 80%;
+    margin: 0 auto;
+}

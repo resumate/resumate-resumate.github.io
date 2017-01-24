@@ -12,7 +12,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <!------ add hamburger menu here -------->
         <ul class="links">
             <li><a href="index.html">home</a></li>
             <li><a href="about.html">about</a></li>
@@ -26,31 +25,18 @@
         <label for="nav-trigger"></label>
         
         <div class="site-wrap">
-        <section id="top">
-            <div id="resumate">
-                <img draggable="false" id="logo" src="images/logo.svg">
-                <h1 id="title">resumate.co</h1>
-                <p id="desc">making employment easy</p>
+        <div id="outfit" class="text-area">
+            <h2 class="header-text">OUTFIT GUIDE</h2> <!-- NOT DONE-->
+            <p class="description">Dressing the part is just as important as knowing what to say. Here's an interactive visual guide for you to reference.</p>
+            <div id="outfitbtns">
+                <input type="submit" class="changeoutfit" value="outfit 1" onclick="changeFunction(0)">
+                <input type="submit" class="changeoutfit" value="outfit 2" onclick="changeFunction(1)">
+                <input type="submit" class="changeoutfit" value="outfit 3" onclick="changeFunction(2)"> 
             </div>
-        </section>
-        
-        <section id="goal"> 
-            <div id="goals">
-                <h3>Our Goal</h3>
-                <p>At resumate.co, we understand the diffculty that comes with applying for your first job and the stress for the interviews that follow. We believe that with the right guidance and preparation, your fear of the employment process can be overcome. Scoring your first job can seem like a hard task, but our tools make it easier.
-                </p>
+            <div id="outfitContainer">
             </div>
-            <div id="goalsimg">
-                <img draggable="false" id="guy" src="images/guy.svg">
-            </div>
-        </section>
         
-        <a href="resume.html">
-        <section id="bigbutton">
-            <h3>CLICK HERE to launch your career</h3>
-        </section>    
-        </a>   
-        
+        </div>
         <footer>
             
             <h2 id="back2top">
@@ -70,4 +56,5 @@
         </footer>
         </div>
     </body>
+    <script src="script/outfitGuide.js"></script>
 </html>

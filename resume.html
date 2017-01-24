@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Welcome to Resumate - making employment easy</title>
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="css/screen_layout_medium.css"/>
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/screen_layout_small.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <ul class="links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="resume.html">resume tips</a></li>
+            <li><a href="interviews.html">interview tips</a></li>
+            <li><a href="outfits.html">outfit guide</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+        
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label>
+        
+        <div class="site-wrap">
+        <div id="what-is" class="text-area">
+                            <h2 class="header-text">RESUMES</h2>
+            <div class="left-text">
+                <h4 class="sub-subhead">What is a resume?</h4>
+                <p class="text">A resume is a summary of yourself that includes things like your education, achievements, work experience, and skills. It's often sent with job applications for an employer to review and is necessary to have if you want to secure an interview. Your resume is meant to sell yourself to an employer, so it's basically an advertisement for yourself.</p>
+            </div>
+            
+            <div class="right-image">
+                <img draggable="false" id="paperpen" src="images/paperpen.svg">
+            </div>
+        </div>
+        
+        <div id="view-ex" class="text-area">
+            <h4 class="subhead-white">VIEW AN EXAMPLE</h4>
+            
+            <div class="squares">
+                <a href="images/r_basic.PNG" target="_blank">    
+                    <img draggable="false" class="example" src="images/rs_basic.png">
+                </a>
+                <h5>simple</h5>
+            </div>
+            <div class="squares">
+                <a href="images/r_styled.jpg" target="_blank">
+                    <img draggable="false" class="example" src="images/rs_styled.jpg">
+                </a>
+                <h5>styled</h5>
+            </div>
+            <div class="squares">
+                <a href="images/r_fancy.PNG" target="_blank">
+                    <img draggable="false" class="example" src="images/rs_fancy.png">
+                </a>
+                <h5>designed</h5>
+            </div>
+            <div class="arrowsCont">
+                <a class="w3-btn-floating w3-display-left arrows" onclick="plusDivs(-1)">&#10094;</a>
+                <a class="w3-btn-floating w3-display-right arrows" onclick="plusDivs(1)">&#10095;</a>           
+            </div>
+            
+        </div>
+        
+        <div id="know-good" class="text-area">
+            <h2 class="header-text">WHERE DO I START?</h2>
+            <div class="left-image">
+                <img draggable="false" id="girl" src="images/girl.svg">
+            </div>
+            <div class="right-text">
+                <h4 class="sub-subhead">Know what a good resume is.</h4>
+                <p class="text">Gordon Brown, a Talent Development Specialist for OneStop Career Center, advises that resumes should answer "How much?" "How often?" and "With what result?" Brown says that "anyone can state on a resume that they waited tables - to set your resume apart, write down how many tables you served in a night, on the weekends, [or] on the lunch rush." In addition, simply stating that you "answered the phone" or "greeted customers" can come off as bland, but describing how often you did can add a hardworking quality, such as "frequently answered phones" or "consistently greeted customers." Lastly, Brown stresses that showing how a company benefited from your actions is crucial to making your resume stand out. For example, instead of "provided customer service," you can say "provided exceptional customer service that resulted in repeat business."</p>
+                </div>
+        </div>    
+        
+        <div id="know-want" class="text-area">
+            <div class="left-text">
+            <h4 class="sub-subhead-white">Know what employers want.</h4>
+            <p class="text-white">The biggest challenge that teens face when applying to their first job is that they lack the experience employers want. Job applications often require you to list your past work experience, and if you're applying to your first job there won't be anything to put. The best way to work around this is to use your lack of experience to your advantage. Having no experience makes you teachable, trainable, and enthusiastic to learn more. Know the type of person employers are looking for and match your skills to it.</p>
+            </div>
+            <div class="right-image">
+                <img draggable="false" id="thumb" src="images/like.svg">
+            </div>
+        </div>    
+         
+        
+        
+        <!-- DON'T CHANGE ANY OF THE IDs or CLASSES IN THIS SECTION
+        ALSO I THINK WE SHOULD CHANGE WHAT DO YOU KNOW it sounds kinda mean -->
+        <div id="what-know" class="text-area">
+            <h2 class="header-text">RESUME BUILDER</h2>
+            <p id="knowDesc">Fill in the form to generate a personalized resume. Remember to use proper capitalization and grammar.</p>
+            <div id="resumeLeft">
+                <label>Name:</label> 
+                    <input class="singleInput" type="text" id="name">
+                    <p class="popup" id="namePop">Please enter your first and last name.</p>
+                <label>Contact:</label> 
+                    <input class="singleInput" type="text" id="email" placeholder="Email Address">
+                    <p class="popup" id="emailPop">Make sure to use a professional email address, not sk8r999@gmail.com.</p>
+                    <input class="singleInput" type="text" id="phone" placeholder="Phone Number">
+                    <p class="popup" id="phonePop">This should be the best number to reach you at, and it better not be your mom's.</p>
+                <label>Objective:</label>           
+                    <div id="charcount_text"></div>
+                    <textarea class="singleInput" rows="5" id="objective" maxlength="350"></textarea>
+                    <p class="popup" id="objPop">Write a short statement that clearly outlines who you are, what you're applying for, and what value you'll bring to the company.
+                        <span class="newLine">Ex) Dedicated and motivated engineering graduate with proven leadership and organizational skills seeking entry level assistant manager position with Dino Co.</span>
+                    </p>
+                <label>Skills:</label>
+                    <p class="abovePop" id="skillsPop">What technical or leadership skills do you possess?</p>   
+                    <ul  class="addedfields">
+                        <li class="skills-list"><input type="text" class="skills" maxlength="80" onfocus="displayFunction('#skillsPop');" onblur="hideFunction('#skillsPop');"></li>
+                    </ul>
+                <input type="button" class="addtext" value="Add" onmousedown="addInputBox(0, 'skills-list', 'skills')">
+                <label>Work Experience:</label>
+                    <p class="abovePop" id="jobTitlePop">Start with your most recent job.</p> 
+                    <p class="abovePop" id="jobDescPop">See what Gordon Brown suggests <!--<a id="seeGordon" href="#know-good">above.</a>-->above.</p> 
+                    <ul class="addedfields">
+                        <li class="work-list"><input type="text" class="jobTitle" placeholder="Job Title (Year)" onfocus="displayFunction('#jobTitlePop');" onblur="hideFunction('#jobTitlePop');"><textarea class="work-description" maxlength="200" placeholder="Description" onfocus="displayFunction('#jobDescPop');" onblur="hideFunction('#jobDescPop');"></textarea></li>
+                    </ul>
+                    <input type="button" class="addtext" value="Add" onmousedown="addWorkXP()">
+            </div>            
+            <div id="resumeRight">
+                <label>Education:</label>
+                    <input class="singleInput" type="text" id="schoolName" placeholder="Name of School">
+                    <input class="singleInput" type="text" id="gradeLevel" placeholder="Grade Level">
+                    <input class="singleInput" type="text" id="GPA" placeholder="GPA" onfocus="displayFunction('#GPAPop');" onblur="hideFunction('#GPAPop');">
+                    <p class="popup" id="GPAPop">Weighted or Unweighted, up to you.</p> 
+                    <textarea class="singleInput" rows="3" id="classes" placeholder="Special Classes" onfocus="displayFunction('#classesPop');" onblur="hideFunction('#classesPop');"></textarea>
+                    <p class="popup" id="classesPop">Have you taken any AP or technical classes? You can also list your current math class to show employers your capabilities.</p> 
+                <label>Accomplishments:</label> 
+                    <p class="abovePop" id="accPop">Have you received any awards or recognition? What about a special project you've worked on and its outcome? 
+                        <span class="newLine">Ex) Trained as lead cashier, balancing cash drawer with 95% accuracy</span>
+                    </p> 
+                    <ul class="addedfields">
+                        <li class="accomplishments-list"><input type="text" class="accomplishments" maxlength="80" onfocus="displayFunction('#accPop');" onblur="hideFunction('#accPop');"></li>
+                    </ul>
+                    <input type="button" class="addtext" value="Add" onmousedown="addInputBox(2, 'accomplishments-list', 'accomplishments')">
+                <label>Activities and Leadership:</label>
+                    <p class="abovePop" id="actPop">Here you can list any clubs or extracurriculars you were involved in. You can also name any leadership positions you've held in projects.</p> 
+                    <ul class="addedfields">
+                        <li class="activities-list"><input type="text" class="activities" maxlength="80" onfocus="displayFunction('#actPop');" onblur="hideFunction('#actPop');"></li>
+                    </ul>
+                    <input type="button" class="addtext" value="Add" onmousedown="addInputBox(3, 'activities-list', 'activities')">
+                <label>Community Service:</label>
+                    <p class="abovePop" id="commPop">Describe any service projects you've been involved in or volunteer positions you've held. You can list anything you've done with your CTSO club.</p> 
+                    <ul class="addedfields">
+                        <li class="service-list"><input type="text" class="service" maxlength="80" onfocus="displayFunction('#commPop');" onblur="hideFunction('#commPop');"></li>
+                    </ul>
+                    <input type="button" class="addtext" value="Add" onmousedown="addInputBox(4, 'service-list', 'service')">
+            </div>
+        </div>
+        <input type="submit" id="submit" value="Generate my resume!">
+        <footer>
+           <h2 id="back2top">
+                <a href="#links">BACK TO TOP</a>
+            </h2>
+            <p id="mininav">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="resume.html">resume tips</a>
+                <a href="interviews.html">interview tips</a>
+                <a href="outfits.html">outfit guide</a>
+                <a href="contact.html">contact</a>
+            </p>
+        
+            <p id="text">&copy; resumate.co 2017</p>
+        </footer>
+        
+    <div id="toNewWindow">
+        <body>
+            <style>
+                @media print {
+                    * {
+                        font-family: Trebuchet MS, Tahoma, sans-serif;
+                    }
+                    @page {
+                        margin: .5in;
+                        size: 8.5in 11in;
+                        @top-left-corner {
+                            color: white;
+                        }
+                        @top-right-corner {
+                            color: white;
+                        }
+                    }
+                    #nameDiv{
+                        position: relative;
+                        top: -.28in;
+                        width: 2in;
+                        float: left;
+                    }
+                    #name-output {
+                        font-size: 36pt;
+                        display: block;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        margin-bottom: -.05in;
+                    }
+                    #contactDiv {
+                        float: right;
+                    }
+                    .secTitle {
+                        color: #1D6DA6;
+                        font-size: 14pt;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    .work-title {
+                        font-weight: bold;
+                    }
+                    #workDiv, #actDiv, #commDiv {
+                        width: 4.2in;
+                    }
+                    #accomDiv, #educationDiv, #skillsDiv, #contactDiv {
+                        width: 3.5in;
+                    }
+                    
+                    #workDiv, #actDiv, #commDiv, #accomDiv, #educationDiv, #skillsDiv, #objectiveDiv {
+                        clear: both;
+                    }
+                    #divFloatLeft {
+                        float: left;
+                    }
+                    #divFloatRight {
+                        float: right;
+                    }
+                    span {
+                        display: block;
+                        font-size: 12pt;
+                    }
+                    #objectiveDiv {
+                        border-top-width: 2px;
+                        border-bottom-width: 2px;
+                        border-top-style: solid;
+                        border-bottom-style: solid;
+                        border-top-color: #cccccc;
+                        border-bottom-color: #cccccc;
+                        padding-bottom: .25in;
+                        
+                    }
+                    ul {
+                        list-style: none;
+                        padding-left: 0;
+                    }
+                    li:before {
+                        content: "-";
+                    }
+                    li:before {
+                        content: "- ";
+                        margin-left: -.12in;
+                    }
+                    li {
+                        margin-left: .11in;
+                        margin-bottom: .05in;
+                    }
+                    #school-output, #gradeLvl-output, #GPA-output, #classes-output {
+                        line-height: .25in;
+                    }
+                    #school-output {
+                        margin-top: -.05in;
+                        font-weight: bold;
+                    }
+                    #gradeLvl-output, #GPA-output {
+                        display: inline;
+                    }
+                    #GPA-output:before {
+                        content: "| ";
+                    }
+                    #GPA-output:after {
+                        content: " GPA";
+                    }
+                    #printBtn {
+                        display: none;
+                    }
+                }
+                
+            </style>
+            <!-- span is where the user inputed text goes so don't change that output id-->
+            <input id="printBtn" type="submit" value="Click here to print" onclick="window.print()"> 
+
+            <div id="resumeTitle">
+                <div id="nameDiv"><p id="name-output"></p></div>
+
+                <div id="contactDiv">
+                    <p class="secTitle">Contact Information:</p>   
+                    <span id="email-output"></span>
+                    <span id="phone-output"></span>
+                </div>
+            </div>
+             
+            <div id="objectiveDiv">
+                <p class="secTitle">Objective:</p>
+                <span id="obj-output"></span>
+            </div>    
+            
+            <div id="divFloatLeft">
+                <div id="workDiv">
+                    <p class="secTitle">Work Experience</p>
+                    <span id ="workXP-output"></span>
+                </div>
+
+                <div id="actDiv">
+                    <p class="secTitle">Activities and Leadership:</p>    
+                    <ul id="act-output"></ul>
+                </div>
+
+                <div id="commDiv">
+                    <p class="secTitle">Community Service:</p>   
+                    <ul id="comm-output"></ul>
+                </div>
+            </div>
+            
+            <div id="divFloatRight">
+                <div id="educationDiv">
+                    <p class="secTitle">Education:</p>   
+                    <span id="school-output"></span>
+                    <span id="gradeLvl-output"></span>
+                    <span id="GPA-output"></span>
+                    <span id="classes-output"></span>
+                </div>
+
+                <div id="skillsDiv">   
+                    <p class="secTitle">Skills:</p> 
+                    <ul id="skills-output"></ul>
+                </div>
+
+                <div id="accomDiv">
+                    <p class="secTitle">Accomplishments:</p>    
+                    <ul id="acc-output"></ul>
+                </div>
+            </div>
+        </body>
+    </div>
+    </div>
+        
+        
+</body>
+    
+    <script src="script/resumeScript.js"></script> 
+    <script src="script/slider.js"></script> 
+  
+</html>
