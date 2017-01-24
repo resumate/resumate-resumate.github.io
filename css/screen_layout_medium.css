@@ -10,6 +10,16 @@
     font-size: 34pt;
 }
 
+.links li:hover, .links li:focus {
+    height: inherit;
+    border-bottom: none;
+    background-color: lightskyblue;
+}
+
+.links li:hover > a, .links li:focus > a {
+    color: black;
+}
+
 #top p {
     font-size: 16pt;   
 }
