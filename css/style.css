@@ -17,6 +17,11 @@ h4 {
     text-align: center;
 }
 
+#our-goal {
+    height: 250px;
+    padding: 50px 200px;
+}
+
 #nav-trigger {
     display: none;
 }
@@ -49,6 +54,13 @@ h4 {
 
 .links a {
     color: #fff;   
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 #title {
@@ -129,7 +141,6 @@ h4 {
     width: 5%;   
 }
 
-
 footer {
     background-color: #000; 
     height: 100px;
@@ -146,6 +157,10 @@ input, textarea {
     background-color: #cce6ff;
     color: black;
 }
+input[type=text], input[type=email], textarea {
+    width: 390px;
+}
+
 form label {
     margin: 10px 0 5px 0;
 }
@@ -376,8 +391,8 @@ footer p {
 
 .right-image {
     width: 20%;
-    padding-left: 800px;
-    margin-bottom: -3px;
+    float: right;
+    margin-right: 100px;
 }
 
 #how-act {
@@ -390,6 +405,7 @@ footer p {
 
 #paperpen {
     width: 200px;
+    float: right;
 }
 
 #tallguy {
@@ -421,7 +437,7 @@ footer p {
 
 /* RESUME FORM */
 
-.singleInput, .jobTitle, ul li input[type=text], .work-description {
+.singleInput, .jobTitle, ul li input[type=text], .work-description, #resumeLeft input[type=text], #resumeRight input[type=text] {
     display: block;
     width: 94%;
 }
@@ -473,7 +489,7 @@ footer p {
     color: black; 
 }
 .popup, .abovePop {
-    width: 350px;
+    width: auto;
     padding: 1.5%;
     margin: 0 auto 2% auto;
     display: none;
