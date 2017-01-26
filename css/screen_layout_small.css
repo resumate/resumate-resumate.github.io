@@ -391,3 +391,154 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+/* OUTFIT GUIDE */
+.changeoutfit, #questions1, #questions2, #questions3 {
+    padding: 5px;
+    width: 150px;
+    margin: 0 5px 25px 5px;
+}
+#outfitbtns {   
+    width: 490px;
+}
+.changeoutfit:hover, .changeoutfit:focus {
+    background-color: lightskyblue;
+}
+#outfitContainer {
+    width: 100%;
+    padding-top: 16px;
+}
+#proGirl {
+    margin-left: 50px;
+    width: 141.2px;
+}    
+#proGuy {
+    margin-right: 50px;
+    width: 150.5px;
+}
+#bcGirl {
+    margin-left: 50px;
+    width: 201px;
+}    
+#bcGuy {
+    margin-right: 50px;
+    width: 153.5px;
+}
+#casGirl {
+    margin-left: 50px;
+    width: 201px;
+}    
+#casGuy {
+    margin-right: 50px;
+    width: 153.5px;
+}
+.outfits {
+    height: 468px;
+}
+#blouse, #blazer, #butUp {
+    top: 16%/**distance from top of image */;
+    left: 0% /**distance from left of image */;
+    width: 130px; /**region width*/;
+    height: 120px /**region height*/;
+}
+#blousepop, #blazerpop, #dressShirtpop, #pantspop, #butUppop, #dresspop, #stockingspop, #shoespop {
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+    width: 130px;
+    height: 150px;
+}
+#stockingspop, #dresspop {
+    height: 80px;
+}
+#blousepop{
+    left: 170px;
+}
+#proGirl #pantspop {
+    left: 150px;
+}
+#dressShirtpop {
+    height: 100px;
+}
+#proGirl #shoespop, #bcGirl #shoespop, #casGirl #shoespop, #casGirl #butUppop {
+    left: 140px;
+    height: 100px;
+}
+#casGirl #butUppop {
+    height: 150px;
+}
+#stockingspop {
+    left: 120px;
+    top: -20px;
+}
+#blazerpop, #casGuy #butUppop {
+    left: -150px;
+}
+#dressShirtpop {
+    left: -210px;
+}
+#proGuy #pantspop, #bcGuy #pantspop, #casGuy #pantspop {
+    left: -170px; 
+    height: 100px;
+    width: 140px;
+}
+#bcGuy #butUppop {
+    height: 120px;
+    left: -150px;
+}
+#bcGuy #shoespop {
+    height: 100px;
+    left: -180px;
+}
+#proGuy #pantspop {
+    height: 80px;
+    left: -180px; 
+
+}
+#casGuy #pantspop {
+    width: 120px;
+    left: -180px; 
+}
+#proGuy #shoespop, #casGuy #shoespop {
+    left: -200px;
+    height: 80px;
+}
+#butUppop {
+    left: -120px;
+}
+#dressShirt {
+    top: 13%/**distance from top of image */;
+    left: 40% /**distance from left of image */;
+    width: 35px; /**region width*/;
+    height: 140px /**region height*/;
+}
+#dress {
+    top: 16%/**distance from top of image */;
+    left: 22% /**distance from left of image */;
+    width: 120px; /**region width*/;
+    height: 200px /**region height*/;
+}
+#pants {
+    top: 43%/**distance from top of image */;
+    left: 15% /**distance from left of image */;
+    width: 90px; /**region width*/;
+    height: 220px /**region height*/;
+}
+#stockings {
+    top: 58%/**distance from top of image */;
+    left: 30% /**distance from left of image */;
+    width: 70px; /**region width*/;
+    height: 130px /**region height*/;
+}
+#shoes {
+    top: 92%/**distance from top of image */;
+    left: 29% /**distance from left of image */;
+    width: 90px; /**region width*/;
+    height: 40px /**region height*/;
+}
+#shoesCG {
+    top: 92%/**distance from top of image */;
+    left: 0% /**distance from left of image */;
+    width: 90px; /**region width*/;
+    height: 40px /**region height*/;
+}

@@ -333,3 +333,129 @@ body {
     width: 75%;
     margin: 0 auto;
 }
+
+
+/* OUTFIT GUIDE */
+    .changeoutfit, #questions1, #questions2, #questions3 {
+        padding: 5px;
+        width: 150px;
+        margin: 0 5px 25px 5px;
+    }
+    #outfitbtns {   
+        width: 490px;
+    }
+    .changeoutfit:hover, .changeoutfit:focus {
+        background-color: lightskyblue;
+    }
+    #outfitContainer {
+        width: 100%;
+        padding-top: 16px;
+    }
+    #proGirl {
+        margin-left: 140px;
+        width: 141.2px;
+    }    
+    #proGuy {
+        margin-right: 140px;
+        width: 150.5px;
+    }
+    #bcGirl {
+        margin-left: 140px;
+        width: 201px;
+    }    
+    #bcGuy {
+        margin-right: 140px;
+        width: 153.5px;
+    }
+    #casGirl {
+        margin-left: 140px;
+        width: 201px;
+    }    
+    #casGuy {
+        margin-right: 140px;
+        width: 153.5px;
+    }
+    .outfits {
+        height: 468px;
+    }
+    #blouse, #blazer, #butUp {
+        top: 16%/**distance from top of image */;
+        left: 0% /**distance from left of image */;
+        width: 130px; /**region width*/;
+        height: 120px /**region height*/;
+    }
+    #blousepop, #blazerpop, #butUppop {
+        position: relative;
+        padding: 10px;
+        left: 160px;
+    }
+#bcGuy #butUppop, #bcGuy #pantspop, #blazerpop, #casGuy #butUppop {
+    left: -160px;
+}
+#bcGuy #shoespop, #casGuy #pantspop, #casGuy #shoespop {
+    left: -180px;
+}
+#casGirl #shoespop {
+    left: 120px;
+}
+    #dressShirt {
+        top: 13%/**distance from top of image */;
+        left: 40% /**distance from left of image */;
+        width: 35px; /**region width*/;
+        height: 140px /**region height*/;
+    }
+    #dressShirtpop {
+        position: relative;
+        padding: 10px;
+        left: -200px;
+    }
+    #dress {
+        top: 16%/**distance from top of image */;
+        left: 22% /**distance from left of image */;
+        width: 120px; /**region width*/;
+        height: 200px /**region height*/;
+    }
+    #dresspop {
+        position: relative;
+        padding: 10px;
+        left: 150px;
+    }
+    #pants {
+        top: 43%/**distance from top of image */;
+        left: 15% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 220px /**region height*/;
+    }
+    #pantspop {
+        position: relative;
+        padding: 10px;
+        left: 120px;
+    }
+    #stockings {
+        top: 58%/**distance from top of image */;
+        left: 30% /**distance from left of image */;
+        width: 70px; /**region width*/;
+        height: 130px /**region height*/;
+    }
+    #stockingspop {
+        position: relative;
+        padding: 10px;
+        left: 120px;
+    }
+    #shoes {
+        top: 92%/**distance from top of image */;
+        left: 29% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 40px /**region height*/;
+    }
+    #shoesCG {
+        top: 92%/**distance from top of image */;
+        left: 0% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 40px /**region height*/;
+    }
+    #shoespop {
+        position: relative;
+        padding: 10px;
+        left: 80px;
+    }

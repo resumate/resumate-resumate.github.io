@@ -569,54 +569,118 @@ label {
         background-color: #3E9AED;
         padding: 5px;
         color: white;
-        width: 100px;
+        width: 150px;
         margin: 0 5px 25px 5px;
     }
     #outfitbtns {   
         margin: 0 auto;
-        width: 340px;
+        width: 490px;
+    }
+    .changeoutfit:hover, .changeoutfit:focus {
+        background-color: lightskyblue;
     }
     #outfitContainer {
         width: 1000px;
         height: 484px;
-        background-color: #96acde;
+        background-image: url(../images/background.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         margin: 0 auto;
         padding-top: 16px;
     }
-    #outfit1 {
+    #proGirl {
+        background-image: url("../images/pro_female.png");
+        margin-left: 200px;
+        float: left;
+        width: 141.2px;
+    }    
+    #proGuy {
+        background-image: url("../images/pro_male.png");
+        margin-right: 200px;
+        float: right;
+        width: 150.5px;
+    }
+    #bcGirl {
+        background-image: url("../images/bc_female.png");
+        margin-left: 200px;
+        float: left;
+        width: 201px;
+    }    
+    #bcGuy {
+        background-image: url("../images/bc_male.png");
+        margin-right: 200px;
+        float: right;
+        width: 153.5px;
+    }
+    #casGirl {
+        background-image: url("../images/cas_female.png");
+        margin-left: 200px;
+        float: left;
+        width: 201px;
+    }    
+    #casGuy {
+        background-image: url("../images/cas_male.png");
+        margin-right: 200px;
+        float: right;
+        width: 153.5px;
+    }
+    .outfits {
         position: relative;
-        background-image: url("../images/outfit-01.png");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 130px;
         height: 468px;
-        margin-left: 200px;
     }
-    #cardigan {
+    #blouse, #blazer, #butUp {
         top: 16%/**distance from top of image */;
         left: 0% /**distance from left of image */;
         width: 130px; /**region width*/;
         height: 120px /**region height*/;
     }
-    #cardiganpop {
+    #blousepop, #blazerpop, #butUppop {
         position: relative;
-        padding: 10px;
-        left: 150px;
-        width: 100px;
-        height: 40px;
-    }
-    #blouse {
-        top: 23%/**distance from top of image */;
-        left: 30% /**distance from left of image */;
-        width: 40px; /**region width*/;
-        height: 95px /**region height*/;
-    }
-    #blousepop {
-        position: relative;
-        padding: 10px;
-        right: 200px;
+        padding: 15px;
+        left: 170px;
         width: 120px;
-        height: 40px;
+        height: 150px;
+    }
+#casGirl #butUppop {
+    height: 160px;
+}
+#casGirl #pantspop {
+    height: 120px;
+}
+#casGuy #butUppop {
+    height: 100px;
+}
+#casGuy #pantspop {
+    height: 80px;
+}
+    #dressShirt {
+        top: 13%/**distance from top of image */;
+        left: 40% /**distance from left of image */;
+        width: 35px; /**region width*/;
+        height: 140px /**region height*/;
+    }
+    #dressShirtpop {
+        position: relative;
+        padding: 15px;
+        left: 120px;
+        width: 100px;
+        height: 120px;
+    }
+    #dress {
+        top: 16%/**distance from top of image */;
+        left: 22% /**distance from left of image */;
+        width: 120px; /**region width*/;
+        height: 200px /**region height*/;
+    }
+    #dresspop {
+        position: relative;
+        padding: 15px;
+        left: 150px;
+        width: 130px;
+        height: 90px;
     }
     #pants {
         top: 43%/**distance from top of image */;
@@ -626,10 +690,26 @@ label {
     }
     #pantspop {
         position: relative;
-        padding: 10px;
+        padding: 15px;
         left: 120px;
         width: 120px;
-        height: 40px;
+        height: 150px;
+    }
+    #proGuy #pantspop {
+        height: 90px;
+    }
+    #stockings {
+        top: 58%/**distance from top of image */;
+        left: 30% /**distance from left of image */;
+        width: 70px; /**region width*/;
+        height: 130px /**region height*/;
+    }
+    #stockingspop {
+        position: relative;
+        padding: 15px;
+        left: 120px;
+        width: 120px;
+        height: 100px;
     }
     #shoes {
         top: 92%/**distance from top of image */;
@@ -637,13 +717,19 @@ label {
         width: 90px; /**region width*/;
         height: 40px /**region height*/;
     }
+    #shoesCG {
+        top: 92%/**distance from top of image */;
+        left: 0% /**distance from left of image */;
+        width: 90px; /**region width*/;
+        height: 40px /**region height*/;
+    }
     #shoespop {
         position: relative;
-        padding: 10px;
-        bottom: 50px;
-        right: 170px;
+        padding: 15px;
+        bottom: 100px;
+        right: 190px;
         width: 120px;
-        height: 40px;
+        height: 100px;
     }
     .innerHover {
         position: absolute;
