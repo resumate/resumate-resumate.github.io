@@ -107,16 +107,17 @@ footer {
 }
 
 .text, .text-white, #goals p {
-    font-size: 10pt;
+    font-size: 16pt;
     line-height: 16pt;
 }
 
 #our-goal{
-    padding-bottom: 20%;
+    padding:50px;
+    height: inherit;
 }
 
 #us {
-    height: 50%;
+    height: inherit;
 }
 
 
@@ -278,7 +279,9 @@ footer {
     background-image: url(../images/tfullguy.png);
     background-size: cover;
 }
-
+.howDoIAct {
+    width: 100%;
+}
 #goal {
     background-image: url(../images/tguy.png);
     background-size: cover;
@@ -287,6 +290,7 @@ footer {
 #what-is {
     background-image: url(../images/tpaperpen.png);
     background-size: cover;
+    height: inherit;
 }
 
 #know-good {

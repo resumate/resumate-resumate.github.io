@@ -437,6 +437,10 @@ footer p {
 
 /* RESUME FORM */
 
+#click2view {
+    display: block;
+}
+
 .singleInput, .jobTitle, ul li input[type=text], .work-description, #resumeLeft input[type=text], #resumeRight input[type=text] {
     display: block;
     width: 94%;
