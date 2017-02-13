@@ -6,15 +6,15 @@ body {
 }
 
 #top {
-    height: 200px;
+    height: 300pt;
 }
 
 #title {
-    font-size: 20pt;
+    font-size: 32pt;
 }
 
 #top p {
-    font-size: 12pt;   
+    font-size: 16pt;   
 }
 
 #resumate {
@@ -23,7 +23,7 @@ body {
 
 #goal {
     padding: 30px; 
-    height: 35vh;
+    height: 44vh;
 }
 
 #goals {
@@ -40,7 +40,8 @@ body {
 }
 
 #logo {
-    width: 35px;   
+    width: 100pt;
+    margin-bottom: 5px;
 }
 
 #bigbutton h3, #submit, #submit_int {
@@ -98,11 +99,11 @@ footer {
 }
 
 .header-text {
-    font-size: 24pt;   
+    font-size: 32pt;   
 }
 
 .description {
-    font-size: 12pt;  
+    font-size: 16pt;  
     line-height: 16pt;
 }
 
@@ -143,9 +144,16 @@ footer {
     padding: 0;
     margin: 0;
 }
+.aboutright-text p {
+    font-size: 16pt;
+}
 
 #what-know, #knowDesc {
     padding: 0;
+}
+
+#what-know input[type="text"], #what-know textarea {
+    font-size: 16pt;
 }
 
 #knowDesc {
@@ -188,11 +196,11 @@ footer {
 }
 
 .subhead, .subhead-white {
-    font-size: 16pt;   
+    font-size: 20pt;   
 }
 
 .sub-subhead, .sub-subhead-white {
-    font-size: 12pt;   
+    font-size: 20pt;   
 }
 
 .left-image, .right-image {
@@ -304,85 +312,98 @@ footer {
 }
 
 /* NAVIGATION */
-.links {
-    list-style: none;
-    background: #111;
-    width: 100%;
-    height: 100%;
+
+#mobile-header, #nav-button {
+    height: 48pt;
+    overflow: hidden;
+}
+
+#mobile-header {
+    width: 100vw;
+    background-color: #3B9BEF;
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
 }
 
-.links li{
-    padding: 10px 0 10px 20px;
-    display: block;
-    width: 200px;
-    text-align: left;
+#nav-button {
+    width: 40pt;
+    height: 40pt;
+    margin: 5px 10px;
+    background-color: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.links a {
-    display: block;
-    padding-top: 13px;
+#nav-button:hover {
+    /*background-image: url(../img/nav-button-reverse.svg);*/
 }
 
-.links li:hover, .links li:focus {
+    
+    /* Makes #mobile-header visible */
+    #mobile-header {
+        display: block;
+        background-image:url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        padding: 5px 0;
+        background-position: center;
+    }
+    
+    #nav-button-container, nav {
+        width: 250px;
+        transition: transform 0.33s;
+    }
+    
+    nav {
+        left: -250px;
+        top: 0;
+        margin: 0;
+        position: fixed;
+        height: 100vh;
+        background-color: #000;
+        overflow: scroll;
+        z-index: 10;
+    }
+    
+    nav .links {
+        display: block;
+        padding: 0;
+        margin-top: 18pt;
+        background-color: none;
+    }
+    
+    
+    .links li{
+        padding: 10px 0 10px 20px;
+        display: block;
+        text-align: left;
+    }
+    
+    nav .links li a {
+        text-decoration: none;
+        box-sizing: border-box;
+        color: white;
+        display: block;
+        font-size: 18pt;
+        text-align: left;
+        padding-top: 11px;
+        width: 100%;
+    }
+    
+    .links li:hover, .links li:focus {
     height: 70px;
     border-bottom: none;
     background-color: lightskyblue;
-}
+    }
 
-.links li:hover > a, .links li:focus > a {
-    color: black;
-}
-
-.site-wrap {
-    min-width: 100%;
-    min-height: 100%;
-    background-color: #fff;
-    position: relative;
-    top: 0;
-    bottom: 100%;
-    left: 0;
-    z-index: 1;
-    background-size: 200%;
-}
-
-.nav-trigger {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-}
-
-label[for="nav-trigger"] {
-    position: fixed;
-    top: 30px;
-    left: 30px;
-    z-index: 2;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
-    background-size: contain;
-}
-
-.nav-trigger:checked + label {
-    left: 215px;
-}
-
-.nav-trigger:checked ~ .site-wrap {
-    left: 200px;
-    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
-}
-
-.nav-trigger + label, .site-wrap {
-    transition: left 0.2s;
-}
-body {
-    overflow-x: hidden;
-}
+    .links li:hover > a, .links li:focus > a {  
+        color: black;
+    }
+    
+    main {
+        padding-top: 48pt;
+    }
 
 /* INTERVIEW QUESTIONS */
 

@@ -12,52 +12,59 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <ul class="links">
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="resume.html">resume guide</a></li>
-            <li><a href="interviews.html">interview tips</a></li>
-            <li><a href="outfits.html">outfit guide</a></li>
-            <li><a href="contact.html">contact</a></li>
-        </ul>
-        
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger"></label>
-        
-        <div class="site-wrap">
-        <div id="contact" class="text-area">
-            <h2 class="header-text">CONTACT US</h2>
-            <p class="description">Any questions? Our team will get back to you as soon as possible.</p>
-            <div id="contactContainer">
-                <form action="http://formspree.io/cynthia.702920@nv.ccsd.net" method="POST" id="contactForm">
-                        <label for="name">Your Name:</label>
-                        <input name="name" type="text" size="50"><br>
-                        <label for="_replyto">Your Email:</label>
-                        <input name="_replyto" type="email" size="50"/><br>
-                        <label for="message">Your Message:</label>
-                        <textarea name="message" rows="7" cols="50"></textarea><br>
-                        <input id="btnsub" type="submit" value="Send Email">
-                </form>
+        <div class="wrapper">
+            <div id="mobile-header">
+                <div id="nav-button-container">
+                    <div id="nav-button"></div>
+                </div>
             </div>
-        </div>
-        
-        <footer>
             
-            <h2 id="back2top">
-                <a href="#links">BACK TO TOP</a>
-            </h2>
-            
-            <p id="mininav">
-                <a href="index.html">home</a>
-                <a href="about.html">about</a>
-                <a href="resume.html">resume guide</a>
-                <a href="interviews.html">interview tips</a>
-                <a href="outfits.html">outfit guide</a>
-                <a href="contact.html">contact</a>
-            </p>
-        
-            <p id="text">&copy; resumate.co 2017</p>
-        </footer>
+            <main>
+            <nav>
+            <ul class="links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="resume.html">resume guide</a></li>
+                <li><a href="interviews.html">interview tips</a></li>
+                <li><a href="outfits.html">outfit guide</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            </nav>
+
+            <div id="contact" class="text-area">
+                <h2 class="header-text">CONTACT US</h2>
+                <p class="description">Any questions? Our team will get back to you as soon as possible.</p>
+                <div id="contactContainer">
+                    <form action="http://formspree.io/cynthia.702920@nv.ccsd.net" method="POST" id="contactForm">
+                            <label for="name">Your Name:</label>
+                            <input name="name" type="text" size="50"><br>
+                            <label for="_replyto">Your Email:</label>
+                            <input name="_replyto" type="email" size="50"/><br>
+                            <label for="message">Your Message:</label>
+                            <textarea name="message" rows="7" cols="50"></textarea><br>
+                            <input id="btnsub" type="submit" value="Send Email">
+                    </form>
+                </div>
+            </div>
+            </main>
+            <footer>
+
+                <h2 id="back2top">
+                    <a href="#links">BACK TO TOP</a>
+                </h2>
+
+                <p id="mininav">
+                    <a href="index.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="resume.html">resume guide</a>
+                    <a href="interviews.html">interview tips</a>
+                    <a href="outfits.html">outfit guide</a>
+                    <a href="contact.html">contact</a>
+                </p>
+
+                <p id="text">&copy; resumate.co 2017</p>
+            </footer>
         </div>
     </body>
+    <script type="text/javascript" src="script/slideNav.js"></script>
 </html>

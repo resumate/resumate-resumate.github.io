@@ -26,6 +26,10 @@ h4 {
     display: none;
 }
 
+#mobile-header {
+    display: none;
+}
+
 .links li {
     display: inline-block;
     padding: 0 30px;
@@ -74,7 +78,7 @@ h4 {
 }
 
 .description{
-    color: gray;
+    color: #696969;
     letter-spacing: 1pt;
     font-size: 14pt;
     text-align: center;
@@ -106,7 +110,7 @@ h4 {
     margin-top: 10px;
     line-height: 30pt; 
     font-size: 14pt;
-    color: gray;
+    color: #696969;
 }
 
 #guy {
@@ -239,7 +243,7 @@ footer p {
     margin-top: 10px;
     line-height: 25pt; 
     font-size: 12pt;
-    color: gray;   
+    color: #696969;   
 }
 
 .text-white {
@@ -439,6 +443,15 @@ footer p {
 
 #click2view {
     display: block;
+    line-height: 18pt;
+}
+
+#click2view a {
+    color: lightskyblue;
+}
+
+#click2view a:hover {
+    color: deepskyblue;
 }
 
 .singleInput, .jobTitle, ul li input[type=text], .work-description, #resumeLeft input[type=text], #resumeRight input[type=text] {
@@ -567,6 +580,11 @@ label {
     display: block;
 }
 
+.separate {
+    display: block;
+    line-height: 24pt;
+    font-weight: 500;
+}
 
 /* OUTFIT GUIDE */
     .changeoutfit, #questions1, #questions2, #questions3 {
