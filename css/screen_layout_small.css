@@ -6,19 +6,19 @@ body {
 }
 
 #top {
-    height: 300pt;
+    height: 45vh;
+}
+
+#desc {
+    font-size: 20pt;   
 }
 
 #title {
-    font-size: 32pt;
-}
-
-#top p {
-    font-size: 16pt;   
+    font-size: 50pt;
 }
 
 #resumate {
-    padding-top: 50px;   
+    padding-top: 200px;   
 }
 
 #goal {
@@ -31,8 +31,12 @@ body {
 }
 
 #goals p{
-    font-size: 12pt;
-    line-height: 26px;
+    font-size: 18pt;
+    line-height: 35px;
+}
+
+#index-icon {
+    display: none;   
 }
 
 #goals h3 {
@@ -40,8 +44,15 @@ body {
 }
 
 #logo {
-    width: 100pt;
-    margin-bottom: 5px;
+    width: 80px;
+}
+
+#bigbutton {
+    height: 150px;   
+}
+
+#bigbutton h3 {
+    padding-top: 50px; 
 }
 
 #bigbutton h3, #submit, #submit_int {
@@ -324,10 +335,14 @@ footer {
     position: fixed;
 }
 
+#in-mobile-header {
+    display: none;
+}
+
 #nav-button {
-    width: 40pt;
-    height: 40pt;
-    margin: 5px 10px;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
     background-color: none;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
     background-repeat: no-repeat;
@@ -385,7 +400,7 @@ footer {
         box-sizing: border-box;
         color: white;
         display: block;
-        font-size: 18pt;
+        font-size: 20pt;
         text-align: left;
         padding-top: 11px;
         width: 100%;
